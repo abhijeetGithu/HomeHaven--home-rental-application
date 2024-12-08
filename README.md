@@ -46,7 +46,7 @@ Make sure you have the following installed:
 
 2. Navigate to the project directory:
    ```bash
-   cd dream_nest
+   cd HomeHaven--home-rental-application
    ```
 
 3. Install dependencies for the frontend and backend:
@@ -64,7 +64,6 @@ Create a `.env` file in the root directory and add the following:
 
 ```
 MONGO_URI=<your-mongodb-uri>
-PORT=5000
 JWT_SECRET=<your-jwt-secret>
 ```
 
@@ -77,17 +76,17 @@ JWT_SECRET=<your-jwt-secret>
 ## Folder Structure
 
 ```
-├── frontend
+├── client
 │   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── styles
-│   │   └── App.js
-├── backend
+│   │   ├── public
+│   │   ├── src
+│   │   ├── package.json
+│   │   └── package-lock.json
+├── server
 │   ├── routes
 │   ├── models
-│   ├── controllers
-│   └── server.js
+│   ├── public
+│   └── index.js
 └── README.md
 ```
 

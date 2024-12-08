@@ -11,6 +11,10 @@ import PropertyList from "./pages/PropertyList";
 import ReservationList from "./pages/ReservationList";
 import CategoryPage from "./pages/CategoryPage";
 import SearchPage from "./pages/SearchPage";
+import AboutUs from "./pages/AboutUs";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import ReturnAndRefundPolicy from "./pages/ReturnAndRefundPolicy";
+
 
 function App() {
   return (
@@ -28,6 +32,10 @@ function App() {
           <Route path="/:userId/wishList" element={<WishList />} />
           <Route path="/:userId/properties" element={<PropertyList />} />
           <Route path="/:userId/reservations" element={<ReservationList />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/return-and-refund-policy" element={<ReturnAndRefundPolicy />} />
+
         </Routes>
       </BrowserRouter>
     </div>

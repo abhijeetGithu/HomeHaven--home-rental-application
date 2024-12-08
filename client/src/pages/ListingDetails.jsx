@@ -65,6 +65,13 @@ const ListingDetails = () => {
   const navigate = useNavigate()
 
   const handleSubmit = async () => {
+
+    if (!customerId) {
+      // Redirect to login or signup page if user is not logged in
+      navigate("/login");
+      return;
+    }
+
     try {
       const bookingForm = {
         customerId,
@@ -96,7 +103,7 @@ const ListingDetails = () => {
   ) : (
     <>
       <Navbar />
-      
+
       <div className="listing-details">
         <div className="title">
           <h1>{listing.title}</h1>
@@ -123,16 +130,39 @@ const ListingDetails = () => {
         <hr />
 
         <div className="profile">
-          <img
-            src={`http://localhost:3001/${listing.creator.profileImagePath.replace(
-              "public",
-              ""
-            )}`}
-          />
-          <h3>
-            Hosted by {listing.creator.firstName} {listing.creator.lastName}
-          </h3>
+          {customerId ? (
+            <>
+              <img
+                src={`http://localhost:3001/${listing.creator.profileImagePath.replace(
+                  "public",
+                  ""
+                )}`}
+                alt="Host Profile"
+              />
+              <h3>
+                Hosted by {listing.creator.firstName} {listing.creator.lastName}
+              </h3>
+            </>
+          ) : (
+            <button
+              onClick={() => navigate("/login")}
+              style={{
+                padding: "10px",
+                backgroundColor: "#f04e4e",
+                color: "white",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+              }}
+            >
+              <span role="img" aria-label="Lock">
+                🔒
+              </span>
+              You are not logged in
+            </button>
+          )}
         </div>
+
         <hr />
 
         <h3>Description</h3>

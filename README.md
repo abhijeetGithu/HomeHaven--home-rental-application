@@ -2,7 +2,13 @@
 
 Dream Nest is a full-stack home rentals application designed to connect hosts and travelers. Whether you are looking for a cozy place to stay or want to become a host, Dream Nest makes it seamless and easy. The application focuses on providing trust, convenience, and simplicity through a modern user interface.
 
-![Dream Nest Screenshot](image.png)
+## Screenshots
+
+<!-- ![Homepage Screenshot](Screenshot 2024-12-02 083544.png) -->
+<center> <img src="Screenshot-20241.png"> </center>
+<center> <img src="Screenshot-20242.png"> </center>
+<center> <img src="Screenshot-20243.png"> </center>
+
 
 ## Features
 

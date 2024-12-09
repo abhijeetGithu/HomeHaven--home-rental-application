@@ -117,4 +117,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Enjoy using Dream Nest!
+Enjoy using HomeHaven!

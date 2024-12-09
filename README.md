@@ -103,7 +103,7 @@ JWT_SECRET=<your-jwt-secret>
 ## Screenshots
 
 ### Home Page
-![Home Page](image.png)
+![Home Page](client/public/assets/screen1.png)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.

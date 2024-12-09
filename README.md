@@ -5,10 +5,11 @@ Dream Nest is a full-stack home rentals application designed to connect hosts an
 ## Screenshots
 
 <!-- ![Homepage Screenshot](Screenshot 2024-12-02 083544.png) -->
-<center> <img src="client/public/assets/screen1"> </center>
-<center> <img src="client\public\assets\screen2"> </center>
-<center> <img src="client\public\assets\screen3"> </center>
-<center> <img src="client\public\assets\screen4"> </center>
+
+![Screen 1](client/public/assets/screen1.png)
+![Screen 2](client/public/assets/screen2.png)
+![Screen 3](client/public/assets/screen3.png)
+![Screen 4](client/public/assets/screen4.png)
 
 
 ## Features

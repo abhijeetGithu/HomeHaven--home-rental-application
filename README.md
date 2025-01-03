@@ -51,12 +51,12 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/abhijeetGithu/HomeHaven--home-rental-application.git
+   git clone https://github.com/abhijeetGithu/ComfortHub--home-rental-application.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd HomeHaven--home-rental-application
+   cd ComfortHub--home-rental-application
    ```
 
 3. Install dependencies for the frontend and backend:
@@ -117,4 +117,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Enjoy using HomeHaven!
+Enjoy using ComfortHub!

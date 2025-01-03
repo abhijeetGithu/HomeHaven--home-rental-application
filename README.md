@@ -1,6 +1,6 @@
-﻿# HomeHaven--home-rental-application
+﻿# ComfortHub--home-rental-application
 
-HomeHaven is a full-stack home rentals application designed to connect hosts and travelers. Whether you are looking for a cozy place to stay or want to become a host, Dream Nest makes it seamless and easy. The application focuses on providing trust, convenience, and simplicity through a modern user interface.
+ComfortHub is a full-stack home rentals application designed to connect hosts and travelers. Whether you are looking for a cozy place to stay or want to become a host, Dream Nest makes it seamless and easy. The application focuses on providing trust, convenience, and simplicity through a modern user interface.
 
 ## Screenshots
 
